@@ -23,7 +23,7 @@ def main(square, dot):
         return False
     
 
-    
+
 def find_len(dot_1, dot_2):
     return hypot(dot_2[0] - dot_1[0], dot_2[1] - dot_1[1])
 
