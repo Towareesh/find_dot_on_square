@@ -27,5 +27,5 @@ def main(square, dot):
 def find_len(dot_1, dot_2):
     return hypot(dot_2[0] - dot_1[0], dot_2[1] - dot_1[1])
 
-for i in dots_false:
+for i in dots_true:
     print(main(square, i))
